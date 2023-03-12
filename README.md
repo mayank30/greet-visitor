@@ -46,10 +46,10 @@ var greet = require("greet-visitor");
 greet({emoji: false, noon: "Good noon !"});
 
 // Output- at noon
-Good noon !
+"Good noon !"
 
 // Output- in morning
-Good Morning
+"Good Morning"
 ```
 
 ## License
