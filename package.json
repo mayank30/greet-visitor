@@ -1,0 +1,29 @@
+{
+  "name": "greet-visitor",
+  "version": "1.0.0",
+  "description": "Greet your Visitors with Good Morning, Good Afternoon or Good Evening Message using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank30/greet-visitor.git"
+  },
+  "keywords": [
+    "greeting",
+    "admin dashboard",
+    "Good Morning",
+    "Good afternoon",
+    "Good evening",
+    "Messages to your customer",
+    "simple javascript",
+    "manipulate date"
+  ],
+  "author": "Mayank Jhawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank30/greet-visitor/issues"
+  },
+  "homepage": "https://github.com/mayank30/greet-visitor#readme"
+}
