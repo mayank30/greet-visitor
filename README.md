@@ -12,20 +12,22 @@ npm install greet-visitor
 
 | Time Range    | Output            |
 | ------------- | ----------------- |
-| < 12          | 🌞 Good Morning   |
-| >= 12 - <= 17 | 🌞 Good Afternoon |
-| >= 17 - <= 20 | 🌓 Good Evening   |
-| >= 20 - <= 24 | 🌒 Good Night     |
+| >= 3 - <= 12  | 🌞 Good morning   |
+| >= 12 - <= 17 | 🌞 Good afternoon |
+| >= 17 - <= 20 | 🌓 Good evening   |
+| >= 20 - <= 24 | 🌒 Good night     |
+| >= 23 - <= 3  | 🌚 Oh! working late night   |
 
 #### Configurable Default Options
 
 ```
 {
     "emoji": true,
-    "morning": "Good Morning",
-    "noon": "Good Afternoon",
-    "evening": "Good Evening",
-    "night": "Good Night",
+    "morning": "Good morning",
+    "noon": "Good afternoon",
+    "evening": "Good evening",
+    "night": "Good night",
+    "midnight": "Oh! working late night",
 }
 ```
 
